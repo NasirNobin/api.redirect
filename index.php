@@ -1,4 +1,5 @@
 <?php
+// if we have state
 if(! empty($_REQUEST['state'])){
     header('Location: ' . $_REQUEST['state'] .'?'.  http_build_query($_REQUEST));
 }else{
